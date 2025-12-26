@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আস-সালাম | ইসলামিক জ্ঞানভাণ্ডার</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo-area">
+                <h1><i class="fas fa-mosque"></i> আস-সালাম</h1>
+                <p class="tagline">ইসলামিক জ্ঞানভাণ্ডারের প্রতি পদক্ষেপ</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> হোম</a></li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-history"></i> ইতিহাস <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="history/islamic-history.html">ইসলামী ইতিহাস</a>
+                            <a href="history/historical-articles.html">ঐতিহাসিক আর্টিকেল</a>
+                            <a href="history/pre-islamic.html">ইসলাম-পূর্ব ইতিহাস</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-landmark"></i> ইসলামী রাজনীতি <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="politics/intro.html">রাজনীতির পরিচয়</a>
+                            <a href="politics/principles.html">ইসলামী রাজনীতির মূলনীতি</a>
+                            <a href="politics/articles.html">আর্টিকেল</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-coins"></i> ইসলামী অর্থনীতি <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="economics/intro.html">ভূমিকা</a>
+                            <a href="economics/business-types.html">ব্যবসা-বাণিজ্যের প্রকারভেদ</a>
+                            <a href="economics/banking.html">ব্যাংকিং ও সুদ</a>
+                            <a href="economics/articles.html">আর্টিকেল</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-book-quran"></i> তাফসিরুল কুরআন <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="tafsir/articles.html">আর্টিকেল</a>
+                            <a href="tafsir/topical.html">বিষয়ভিত্তিক আয়াত ও তাফসীর</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-book-hadith"></i> হাদীস <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="hadith/articles.html">আর্টিকেল</a>
+                            <a href="hadith/topical.html">বিষয়ভিত্তিক হাদীস ও ব্যাখ্যা</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-scale-balanced"></i> ফতোয়া <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="fatwa/aqeedah.html">আকিদা ও ঈমান</a>
+                            <a href="fatwa/bidah.html">বিদআত ও রসমাত</a>
+                            <a href="fatwa/salah.html">নামায</a>
+                            <a href="fatwa/zakat.html">যাকাত</a>
+                            <a href="fatwa/more.html">আরও...</a>
+                        </div>
+                    </li>
+                    <li><a href="doubts.html"><i class="fas fa-question-circle"></i> সংশয় নিরসন</a></li>
+                    <li><a href="#" id="language-switcher"><i class="fas fa-language"></i> English</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>পরিপূর্ণ ইসলামিক জ্ঞানের সমৃদ্ধ ভাণ্ডার</h2>
+            <p>ইতিহাস, রাজনীতি, অর্থনীতি, তাফসীর, হাদীস ও ফিকাহর বিশুদ্ধ জ্ঞান একত্রে</p>
+            <a href="#featured" class="btn">অন্বেষণ শুরু করুন <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories" id="featured">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-star"></i> প্রধান বিভাগসমূহ</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3>ইতিহাস</h3>
+                    <p>ইসলামী ইতিহাস, ঐতিহাসিক ঘটনা ও বিশ্লেষণ</p>
+                    <a href="history/islamic-history.html" class="category-link">বিস্তারিত দেখুন</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>ইসলামী রাজনীতি</h3>
+                    <p>রাষ্ট্র, সরকার ও রাজনৈতিক দর্শন সম্পর্কিত জ্ঞান</p>
+                    <a href="politics/intro.html" class="category-link">বিস্তারিত দেখুন</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>ইসলামী অর্থনীতি</h3>
+                    <p>সুদমুক্ত ব্যাংকিং, ব্যবসা ও আর্থনীতি</p>
+                    <a href="economics/intro.html" class="category-link">বিস্তারিত দেখুন</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-book-quran"></i>
+                    </div>
+                    <h3>তাফসিরুল কুরআন</h3>
+                    <p>আয়াতের তাফসীর ও বিষয়ভিত্তিক আলোচনা</p>
+                    <a href="tafsir/articles.html" class="category-link">বিস্তারিত দেখুন</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section class="latest-articles">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-newspaper"></i> সর্বশেষ আর্টিকেল</h2>
+            <div class="articles-grid">
+                <!-- Articles will be loaded dynamically -->
+                <div class="article-card">
+                    <img src="assets/images/article1.jpg" alt="ইসলামী অর্থনীতির ভূমিকা">
+                    <div class="article-content">
+                        <h3>ইসলামী অর্থনীতির মৌলিক নীতি</h3>
+                        <p>সুদভিত্তিক অর্থনীতির বিকল্প হিসেবে ইসলামী অর্থনীতির ভূমিকা ও তাৎপর্য...</p>
+                        <a href="articles/islamic-economics-basics.html" class="read-more">পূর্ণ পড়ুন</a>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <img src="assets/images/article2.jpg" alt="খিলাফতের ইতিহাস">
+                    <div class="article-content">
+                        <h3>খিলাফত: উত্থান ও পতনের ইতিহাস</h3>
+                        <p>রাশিদুন খিলাফত থেকে উসমানীয় খিলাফত পর্যন্ত সময়ের পর্যালোচনা...</p>
+                        <a href="articles/khilafat-history.html" class="read-more">পূর্ণ পড়ুন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-mosque"></i> আস-সালাম</h3>
+                    <p>ইসলামের আলোকে আলোকিত জীবন গড়ার প্রয়াস</p>
+                </div>
+                <div class="footer-links">
+                    <h4>দ্রুত লিংক</h4>
+                    <ul>
+                        <li><a href="about.html">সাইট সম্পর্কে</a></li>
+                        <li><a href="contact.html">যোগাযোগ</a></li>
+                        <li><a href="privacy.html">গোপনীয়তা নীতি</a></li>
+                        <li><a href="sitemap.html">সাইটম্যাপ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>গুরুত্বপূর্ণ বিভাগ</h4>
+                    <ul>
+                        <li><a href="fatwa/aqeedah.html">আকিদা বিষয়ক</a></li>
+                        <li><a href="doubts.html">সংশয় নিরসন</a></li>
+                        <li><a href="hadith/topical.html">হাদীস গবেষণা</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© <span id="current-year">2023</span> আস-সালাম। সর্বস্বত্ব সংরক্ষিত।</p>
+                <p class="disclaimer">এই সাইটের সকল তথ্য কুরআন ও সুন্নাহর আলোকে যাচাইকৃত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/language-switcher.js"></script>
+</body>
+</html>
